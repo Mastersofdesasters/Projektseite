@@ -10,7 +10,7 @@ Bei unserem Spiel handelt es sich um ein 2D - Jump and Run - Spiel mit der Haupt
 
 
 ### Programm <a name="Programm"></a>
-
+Wir haben unser Spiel mit dem Programm [Snap](https://snap.berkeley.edu/) programmiert. Dafür hatten wir uns entschieden, nachdem wir auch andere Programme wie [Greenfoot](https://www.greenfoot.org/door) angesehen und ausprobiert hatten. Mit [Snap](https://snap.berkeley.edu/) kamen wir jedoch am besten zurecht, da es ineinzelne Kategorien mit verständlichen Befehlen aufgeteilt ist, wie z.B. "Control" oder "Sensing". Bevor wir angefangen haben, zu programmieren, haben wir uns noch einige Youtube-Videos angeschaut, um eine erste Idee von Snap und den möglichen Befehlen zu bekommen.
 
 
 ### Code <a name="Code"></a>
