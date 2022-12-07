@@ -6,7 +6,7 @@
 
 
 ### Spielkonzept <a name="Spielkonzept"></a>
-Bei unserem Spiel handelt es sich um ein 2D - Jump and Run - Spiel mit der Hauptspielfigur Schnappi dem Krokodil. Der Sinn des Spiels ist es, dass Schnappi, indem der Spieler ihn von Block zu Block springen lässt, die letzte Plattform erreichen muss, ohne vorher zu fallen. Gelingt dies dem Spieler nicht, so fängt das Spiel von vorne an. Hier einmal ein Bild von unserem ersten und für den Spieler einfachsten Level:
+Bei unserem Spiel handelt es sich um ein 2D - Jump and Run - Spiel mit der Hauptspielfigur Schnappi dem Krokodil. Der Sinn des Spiels ist es, dass Schnappi, indem der Spieler ihn von Block zu Block springen lässt, die letzte Plattform erreicht, ohne vorher zu fallen. Gelingt dies dem Spieler nicht, so fängt das Spiel von vorne an. Gelingt es ihm, so wird er zum nächsten Level weitergeleitet. Gespielt wird mit den Pfeil-Tasten, damit lässt sich Schnappi nach links, rechts, oben oder unten bewegen. Hier einmal ein Bild von unserem ersten und für den Spieler einfachsten Level:
 ![Screenshot (19)](https://user-images.githubusercontent.com/111355300/203500186-cdef4137-061c-4a36-b179-4e5d06a89f58.png)
 
 
