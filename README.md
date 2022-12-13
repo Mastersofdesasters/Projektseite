@@ -19,5 +19,9 @@ Wir haben unser Spiel mit dem Programm [Snap](https://snap.berkeley.edu/) progra
 
 **Bewegungen**
 
+1. Bewegung entlang der x-Achse: Hierfür haben wir mit den Pfeiltasten gearbeitet und die Befehle unten im Bild zusammengefügt:
+
+
+
 
 ### Zum Spiel <a name="ZumSpiel"></a>
