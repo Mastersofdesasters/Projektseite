@@ -24,6 +24,7 @@ Wir haben unser Spiel mit dem Programm [Snap](https://snap.berkeley.edu/) progra
 
 3. Bewegung entlang der y-Achse: Hierfür haben wir ebenfalls mit den Pfeiltasten gearbeitet, bzw. mit denen für oben und unten. Wird die obere Taste gedrückt, dann führt Schnappi jedoch eine Bewegung sowohl in x- als auch in y-Richtung aus. Diese soll das Springen (s.u.) realistischer erscheinen lassen, als wenn Schnappi nur nach oben und unten springen würde. Der zugehörige Code ist im Bild zu sehen:
 ![image](https://user-images.githubusercontent.com/111355300/207529126-b06e81bf-8b86-45d4-a271-d5bc10b8e38d.png)
+![image](https://user-images.githubusercontent.com/111355300/207529251-7d00b5c2-9e52-477e-8387-02767ddaa4f7.png)
 
  
 
