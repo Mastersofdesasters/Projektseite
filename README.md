@@ -54,9 +54,11 @@ Level 2: ![Screenshot (28)](https://user-images.githubusercontent.com/111355300/
 Level 3: ![Screenshot (29)](https://user-images.githubusercontent.com/111355300/207535228-8df47225-5a46-4918-bc19-88ab8ddaad64.png)
 
 Analog zum Startbildschirm broadcastet der vom Spieler angeklickte Sprite "Show Level ..." bspw. "Show Level 1"
-BIld
-Dieser Broadcast wird in der Stage wieder received und daraufhin verschwindet der Bildschirm der Levelauswahl und dessen gesamte Sprites durch den Befehl "Hide". Nun erscheint Schnappi und das Level. Außerdem wird der Broadcast auch in Schnappis Stage mit "When I receive" empfangen, sodass dadurch der oben beschriebene Befehl für das Springen aktiviert wird.
-Bild
+![Screenshot (30)](https://user-images.githubusercontent.com/111355300/207535491-aec0e654-5459-4843-876e-cb66d4799754.png)
+
+Dieser Broadcast wird in der Stage wieder received und daraufhin verschwindet der Bildschirm der Levelauswahl und dessen gesamte Sprites durch den Befehl "Hide" (s.o.). Nun erscheint Schnappi und das Level. Außerdem wird der Broadcast auch in Schnappis Stage mit "When I receive" empfangen, sodass dadurch der oben beschriebene Befehl für das Springen aktiviert wird.
+![Screenshot (31)](https://user-images.githubusercontent.com/111355300/207535752-6f2562a0-814f-4a4c-8edd-bd3670a6b7d4.png)
+
 Alle anderen Befehle werden mit den Tasten ausgeführt und sind unabhängig vom Broadcast / When I receive. Nun kann der Spieler anfangen, zu spielen.
 
 ### Zum Spiel <a name="ZumSpiel"></a>
