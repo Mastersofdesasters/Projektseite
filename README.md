@@ -40,12 +40,14 @@ Dieser Vorgang wird aktiviert für jedes Level, sobald dieses vom Spieler ausgew
 Alle folgenden Befehle liegen nicht mehr in dem Skript von Schnappi, sondern in den Skripten der Stage und der jeweiligen Sprites.
 Generell haben wir für Startbildschirm, Auswahl der Level etc. mit den zusammengehörenden Befehlen "Broadcas" und "When I receive" gearbeitet. Außerdem haben wir die Befehle "Hide" und "Show" für die jeweiligen Sprites benutzt.
 1. Startbildschirm: Mithilfe der Bearbeitungsfunktion haben wir einen Startbildschirm entworfen. Auf diesem befindet sich ein Sprite mit dem Namen "Startbutton". Wenn dieser vom Spieler gedrückt wird, broadcastet er "Startbutton gedrückt".
-Bild
+![Screenshot (25)](https://user-images.githubusercontent.com/111355300/207534364-491d6481-d3a2-44d8-b989-5c24364db1cd.png)
+
 2. Levelauswahl: Das Skript der Stage "received" dann diese Information und daraufhin verschwindet der gesamte Startbildschirm mit dem Befehl "Hide", während der Bildschirm für die Levelauswahl erscheint. Dort befinden sich drei Sprites, jeweils eines pro Level:
-Bild
+![Screenshot (26)](https://user-images.githubusercontent.com/111355300/207534551-11160155-3b4e-4eb0-90a6-344b70920bc0.png)
+
 Anschließend hat der Leser die Möglichkeit, zwischen den drei Leveln auszuwählen, wobei Level 1 das einfachste und Level 3 das schwierigste ist. 
 Hier sind einmal die Bildschirme der Level zu sehen:
-Level 1
+Level 1: 
 Level 2
 Level 3
 Analog zum Startbildschirm broadcastet der vom Spieler angeklickte Sprite "Show Level ..." bspw. "Show Level 1"
