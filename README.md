@@ -50,6 +50,8 @@ Level 2
 Level 3
 Analog zum Startbildschirm broadcastet der vom Spieler angeklickte Sprite "Show Level ..." bspw. "Show Level 1"
 BIld
-Dieser Broadcast wird in der Stage wieder received und daraufhin erscheint Schnappi und das Level. Außerdem wird
+Dieser Broadcast wird in der Stage wieder received und daraufhin verschwindet der Bildschirm der Levelauswahl und dessen gesamte Sprites durch den Befehl "Hide". Nun erscheint Schnappi und das Level. Außerdem wird der Broadcast auch in Schnappis Stage mit "When I receive" empfangen, sodass dadurch der oben beschriebene Befehl für das Springen aktiviert wird.
+Bild
+Alle anderen Befehle werden mit den Tasten ausgeführt und sind unabhängig vom Broadcast / When I receive. Nun kann der Spieler anfangen, zu spielen.
 
 ### Zum Spiel <a name="ZumSpiel"></a>
