@@ -47,9 +47,12 @@ Generell haben wir für Startbildschirm, Auswahl der Level etc. mit den zusammen
 
 Anschließend hat der Leser die Möglichkeit, zwischen den drei Leveln auszuwählen, wobei Level 1 das einfachste und Level 3 das schwierigste ist. 
 Hier sind einmal die Bildschirme der Level zu sehen:
-Level 1: 
-Level 2
-Level 3
+Level 1:  ![Screenshot (27)](https://user-images.githubusercontent.com/111355300/207535117-1ddd7fa6-3e9a-4544-ab21-a0be33070201.png)
+
+Level 2: ![Screenshot (28)](https://user-images.githubusercontent.com/111355300/207535170-e8847c85-2e6c-45d2-aaaf-65eed667d495.png)
+
+Level 3: ![Screenshot (29)](https://user-images.githubusercontent.com/111355300/207535228-8df47225-5a46-4918-bc19-88ab8ddaad64.png)
+
 Analog zum Startbildschirm broadcastet der vom Spieler angeklickte Sprite "Show Level ..." bspw. "Show Level 1"
 BIld
 Dieser Broadcast wird in der Stage wieder received und daraufhin verschwindet der Bildschirm der Levelauswahl und dessen gesamte Sprites durch den Befehl "Hide". Nun erscheint Schnappi und das Level. Außerdem wird der Broadcast auch in Schnappis Stage mit "When I receive" empfangen, sodass dadurch der oben beschriebene Befehl für das Springen aktiviert wird.
