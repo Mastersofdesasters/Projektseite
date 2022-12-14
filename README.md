@@ -33,6 +33,7 @@ Wir haben unser Spiel mit dem Programm [Snap](https://snap.berkeley.edu/) progra
 
 4. Das Springen: Das Springen war das Komplizierteste, dafür haben wir uns im Internet, bei ehemaligen Schülern und Herrn Buhl Beispiele angeschaut. Das Ziel war, dasss Schnappi mit einer Schwerkraft springt und grüne Farbblöcke so als Plattform erkennt, dass er auf diesen stehen bleibt oder wenn er auf dem Zielobjekt ,,Plattform" landet. Ansonsten sollte er fallen. Zuerst haben wir eine Geschwindigkeit in y-Richtung festgelegt, die sich zurücketzt, sodass Schanppi nicht ins Unendliche fliegt,  mit der Varibale ,,speedY". Damit der folgende Vorgang die ganze Zeit ausgeführt wird, ahben wir ein ,,forever" eingefügt. danach haben wir gesagt, er soll fallen bis er den Rand der Stage berührt, dies passiert sobald er nicht mehr einen grünen Farbblock oder die Plattform berührt und y-Geschwindigkeit wird geändert. Um die Bewegung realistischer aussehen zu lassen, haben wir mithilfe der Variablen "Readyforjump" und dem Befehl "Key 'Up Arrow' pressed" den Springvorgang modelliert. 
 Dieser Vorgang wird aktiviert für jedes Level, sobald dieses vom Spieler ausgewählt wurde. Im unteren Bild beispielhaft für Level 1 zu sehen.
+
 ![image](https://user-images.githubusercontent.com/111355300/207529476-f2014cfb-19b4-48bb-b401-506099bc7585.png)
 
 
