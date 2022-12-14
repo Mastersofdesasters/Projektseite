@@ -60,5 +60,8 @@ Dieser Broadcast wird in der Stage wieder received und daraufhin verschwindet de
 ![Screenshot (31)](https://user-images.githubusercontent.com/111355300/207535752-6f2562a0-814f-4a4c-8edd-bd3670a6b7d4.png)
 
 Alle anderen Befehle werden mit den Tasten ausgeführt und sind unabhängig vom Broadcast / When I receive. Nun kann der Spieler anfangen, zu spielen.
+Schafft er es nicht, Schnappi rechtzeitig auf einen grünen Farbblock oder die Plattform zu bringen und berührt Schnappi stattdessen die Kante der Stage, so erhält er den Befehl, kurz zu warten und dann an seine Startposition zurückzukehren, sodass der Spieler von vorne anfangen muss:
+![image](https://user-images.githubusercontent.com/111355300/207542319-794486cd-f50b-454d-afba-b4f8801326f8.png)
+
 
 ### Zum Spiel <a name="ZumSpiel"></a>
