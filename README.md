@@ -69,4 +69,7 @@ Schafft er es nicht, Schnappi rechtzeitig auf einen grünen Farbblock oder die P
 ![image](https://user-images.githubusercontent.com/111355300/207542319-794486cd-f50b-454d-afba-b4f8801326f8.png)
 
 
-### Zum Spiel <a name="ZumSpiel"></a>
+### Zum Spiel <a name="Zum Spiel"></a>
+
+
+
