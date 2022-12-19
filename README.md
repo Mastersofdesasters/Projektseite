@@ -31,14 +31,15 @@ Wir haben unser Spiel mit dem Programm [Snap](https://snap.berkeley.edu/) progra
 ![image](https://user-images.githubusercontent.com/111355300/207529251-7d00b5c2-9e52-477e-8387-02767ddaa4f7.png)
 
 
-4. Das Springen: Das Springen war das Komplizierteste, dafür haben wir uns im Internet, bei ehemaligen Schülern und Herrn Buhl Beispiele angeschaut. Das Ziel war, dasss Schnappi mit einer Schwerkraft springt und grüne Farbblöcke so als Plattform erkennt, dass er auf diesen stehen bleibt oder wenn er auf dem Zielobjekt ,,Plattform" landet. Ansonsten sollte er fallen. Zuerst haben wir eine Geschwindigkeit in y-Richtung festgelegt, die sich zurücketzt, sodass Schanppi nicht ins Unendliche fliegt,  mit der Varibale ,,speedY". Damit der folgende Vorgang die ganze Zeit ausgeführt wird, ahben wir ein ,,forever" eingefügt. danach haben wir gesagt, er soll fallen bis er den Rand der Stage berührt, dies passiert sobald er nicht mehr einen grünen Farbblock oder die Plattform berührt und y-Geschwindigkeit wird geändert. Um die Bewegung realistischer aussehen zu lassen, haben wir mithilfe der Variablen "Readyforjump" und dem Befehl "Key 'Up Arrow' pressed" den Springvorgang modelliert. 
+4. Das Springen: Das Springen war das Komplizierteste, dafür haben wir uns im Internet, bei ehemaligen Schülern und Herrn Buhl Beispiele angeschaut. Das Ziel war, dasss Schnappi mit einer Schwerkraft springt und grüne Farbblöcke so als Plattform erkennt, dass er auf diesen stehen bleibt oder wenn er auf dem Zielobjekt "Plattform" landet. Ansonsten sollte er fallen. Zuerst haben wir eine Geschwindigkeit in y-Richtung festgelegt, die sich zurücketzt, sodass Schanppi nicht ins Unendliche fliegt,  mit der Variable "speedY". Damit der folgende Vorgang die ganze Zeit ausgeführt wird, ahben wir ein "forever" eingefügt. Danach haben wir gesagt, er soll fallen bis er den Rand der Stage berührt, dies passiert sobald er nicht mehr einen grünen Farbblock oder die Plattform berührt, denn dann wird die y-Geschwindigkeit geändert. Um die Bewegung realistischer aussehen zu lassen, haben wir mithilfe der Variablen "Readyforjump" und dem Befehl "Key 'Up Arrow' pressed" den Springvorgang modelliert. 
 Dieser Vorgang wird aktiviert für jedes Level, sobald dieses vom Spieler ausgewählt wurde. Im unteren Bild beispielhaft für Level 1 zu sehen.
 
 ![image](https://user-images.githubusercontent.com/111355300/207529476-f2014cfb-19b4-48bb-b401-506099bc7585.png)
 
 **Level**
+
 Alle folgenden Befehle liegen nicht mehr in dem Skript von Schnappi, sondern in den Skripten der Stage und der jeweiligen Sprites.
-Generell haben wir für Startbildschirm, Auswahl der Level etc. mit den zusammengehörenden Befehlen "Broadcas" und "When I receive" gearbeitet. Außerdem haben wir die Befehle "Hide" und "Show" für die jeweiligen Sprites benutzt.
+Generell haben wir für Startbildschirm, Auswahl der Level etc. mit den zusammengehörenden Befehlen "Broadcast" und "When I receive" gearbeitet. Außerdem haben wir die Befehle "Hide" und "Show" für die jeweiligen Sprites benutzt.
 1. Startbildschirm: Mithilfe der Bearbeitungsfunktion haben wir einen Startbildschirm entworfen. Dieser erscheint, wenn die Leertaste gerdrückt wird. Auf diesem befindet sich ein Sprite mit dem Namen "Startbutton". Wenn dieser vom Spieler gedrückt wird, broadcastet er "Startbutton gedrückt".
 ![Screenshot (25)](https://user-images.githubusercontent.com/111355300/207534364-491d6481-d3a2-44d8-b989-5c24364db1cd.png)
 
