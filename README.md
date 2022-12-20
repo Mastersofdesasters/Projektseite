@@ -2,7 +2,7 @@
 ## [_Spielkonzept_](#Spielkonzept)
 ## [_Programm_](#Programm)
 ## [_Code_](#Code)
-## [_Zum Spiel_](#ZumSpiel)
+## [_Zum Spiel_](#Zum Spiel)
 
 
 ### Spielkonzept <a name="Spielkonzept"></a>
